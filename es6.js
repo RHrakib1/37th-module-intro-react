@@ -36,6 +36,11 @@ const multiLine = (num1, num2) => {
 // spread mane holo kono array k copy krbe kintu kono reletion rakhbe na ...amnitei dekha jai j age j number a data ase j gula abr arekta variable a stor kora hoyese kintu segula "..."use korar fole amra aktar stahe r aktar kono rletion thakbe na dushud push hbe number a kintu new number a hbe na kintu "..." aita use na krle 2 ta tei hoito tokhn reletion thkto
 const newNumbers = [...number];
 number.push(11111);
-console.log("number is a -->",number);
-console.log("new number is a ->>>",newNumbers);
+console.log("number is a -->", number);
+console.log("new number is a ->>>", newNumbers);
+
+
+// kono akta array theke notun array make kore aro akta number add krte hole ///'...' aita use kore muloto coppppppppppoy korrrrrrrrrrrra hoiiiiiiiiiiiiiiiiii
+const currentNumbers =[...number, 55]
+console.log('current numbers is a ->>',currentNumbers);  
 
