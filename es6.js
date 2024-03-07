@@ -5,10 +5,11 @@ const student = {
     address: 'gaidandha',
     roll: 511100,
     reg: 125408880,
-    institute: 'kurigram politechnic institute'
+    institute: 'kurigram politechnic institute',
+    like:['footbal','cricket']
 }
 
 // templeat string
 // ki vabe obj and array theke amra templaet string er madhome data acess krte pari 
-const template = `My Name is ${student.name}. My campus name is ${student.institute}. hes roll is a ${student.roll} My address is a ${student.address}. my sirial number is a ${number[4]}`
+const template = `My Name is ${student.name}. My campus name is ${student.institute}. hes roll is a ${student.roll} My address is a ${student.address}. my sirial number is a ${number[4]} i like that a ${student.like[1]}`
 console.log(template);
