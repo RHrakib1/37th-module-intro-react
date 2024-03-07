@@ -22,3 +22,9 @@ console.log('limitet is a ', limit);
 // example 2:filter -->>>> kono akta nam er word ber korar jonno 
 const spacificName = components.filter(productName => productName.name.includes('a'))
 console.log("the namer is a ::",spacificName);
+
+
+
+// find: akhane condition mile gele jake pothome pabe takei ioutput dekhabe r dekhabe na 
+const findProducts = components.find(p => p.name.includes('i'));
+console.log("Find the name ::;",findProducts);
