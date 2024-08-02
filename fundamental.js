@@ -23,7 +23,7 @@ console.log(array.length);
 // step-4 : loop
 for (let i = 0; i < array.length; i++) {
     const number = array[i]
-    console.log(number);
+    console.log("the array number is:",number);
 }
 
 // step-5 : function
@@ -32,7 +32,7 @@ function div(num1, num2) {
     return calculation;
 }
 const output = div(10, 2);
-console.log(output);
+console.log("the function output:",output);
 
 
 
