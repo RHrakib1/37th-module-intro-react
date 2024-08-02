@@ -35,7 +35,7 @@ const multiLine = (num1, num2) => {
 // spread operator
 // spread mane holo kono array k copy krbe kintu kono reletion rakhbe na ...amnitei dekha jai j age j number a data ase j gula abr arekta variable a stor kora hoyese kintu segula "..."use korar fole amra aktar stahe r aktar kono rletion thakbe na dushud push hbe number a kintu new number a hbe na kintu "..." aita use na krle 2 ta tei hoito tokhn reletion thkto
 
-//another nijer vasai sperad --->>>> jodi ami "..." use kori tahole pura arry copy hoye same arry output dibe. jodi "..."use kore sathe kono number dei tahole number soho asol arry copy hbe. r joodi push kori tahole sudhu num tai push hbe  
+//another nijer vasai sperad --->>>> jodi ami "..." use kori tahole pura arry copy hoye same arry output dibe jodi age pore kono push kori ba spered er sathe num diye copy kore add kori arry te taholeo seta add hbe na sudhu asol ta theke copy hbe "..." aita use er fole. jodi "..."use kore sathe kono number dei tahole number soho asol arry copy hbe. r joodi push kori tahole sudhu num tai push hbe  
 const newNumbers = [...number];
 number.push(11111);
 console.log("number is a -->", number);
