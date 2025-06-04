@@ -9,7 +9,7 @@ if (money > 100) {
 else {
     food = 'vat'
 }
-// console.log(food);
+console.log(food);
 
 // tarnary
 let food1 = money > 100 ? 'biriany' : 'vat mach';

@@ -5,7 +5,7 @@ const addToLocalStroage = () => {
     const inputIdAdd2 = document.getElementById('storage-value');
     const id2 = inputIdAdd2.value;
 
-    // 
+    // local stor a set krte hole aita use krte hoi 
     localStorage.setItem(id, id2);
     inputIdAdd.value = '';
     inputIdAdd2.value = '';

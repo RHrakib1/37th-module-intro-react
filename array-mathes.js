@@ -6,14 +6,14 @@ const components = [
 ]
 // map: returen krbe 
 const brand = components.map(productBrand => productBrand.brand)
-console.log(brand);
+console.log("this is brand", brand);
 const name = components.map(productname => productname.name);
-console.log(name);
+console.log("this is a name", name);
 
 
 // for eatch: kono kisu return krbe na 
-components.forEach(productcoler => console.log(productcoler));
-components.forEach(productcoler => console.log(productcoler.color));
+components.forEach(productcoler => console.log("this is a for each section", productcoler));
+components.forEach(productcoler => console.log("this is a for each section", productcoler.color));
 
 // filter : jara jara condition fullfil krbe tara taraai output a asbe 
 const limit = components.filter(productPrice => productPrice.price >= 20000);
@@ -21,10 +21,10 @@ console.log('limitet is a ', limit);
 
 // example 2:filter -->>>> kono akta nam er word ber korar jonno 
 const spacificName = components.filter(productName => productName.name.includes('a'))
-console.log("the namer is a ::",spacificName);
+console.log("the namer is a ::", spacificName);
 
 
 
 // find: akhane condition mile gele jake pothome pabe takei ioutput dekhabe r dekhabe na 
 const findProducts = components.find(p => p.name.includes('i'));
-console.log("Find the name ::;",findProducts);
+console.log("Find the name :", findProducts);

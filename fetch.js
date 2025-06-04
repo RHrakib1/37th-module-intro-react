@@ -9,7 +9,7 @@ console.log(students);
 console.log(studentsJson);
 
 
-// kono akta jsonstring thaka oboistai jsonparse dara abr obj krte pari
+// kono akta jsonstring thaka oboistai json.parse dara abr obj krte pari
 const jsonobj = JSON.parse(studentsJson);
 console.log(jsonobj);
 
@@ -42,10 +42,10 @@ const newProduct = { name: 'bike', price: 120000, brand: 'fZZZ3', color: 'blue-w
 
 // pothome component k copy korte hbe tar por sekhane newProduct add krte hbe
 const newProducts = [...components, newProduct];
-console.log(newProducts);
+console.log("copy to the item:", newProducts);
 
 
 
-// kono array theke kono item k remove kore r akta new array make kora 
+// kono array theke kono item k remove kore r akta new array make kora..sudhu je ta k filter krbo seta bade sob gula thakbe  
 const remainder = components.filter(p => p.price !== 7000)
-console.log(remainder);
+console.log("remainder:::", remainder);
